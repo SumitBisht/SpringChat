@@ -1,0 +1,26 @@
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# Eclipse specific gitignore
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# external tool builders
+.externalToolBuilders/
+
+# Stored eclipse launch configurations
+.launch
