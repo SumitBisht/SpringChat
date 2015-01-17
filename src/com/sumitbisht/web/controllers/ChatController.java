@@ -7,10 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ChatController {
 	
-	@RequestMapping(value = { "/index.html" }, method = { org.springframework.web.bind.annotation.RequestMethod.GET })
+	@RequestMapping(value = { "/" }, method = { org.springframework.web.bind.annotation.RequestMethod.GET })
 	public ModelAndView showHome(){
 		ModelAndView mainPage = new ModelAndView("index");
 		return mainPage;	
 	}
+	
 
 }
